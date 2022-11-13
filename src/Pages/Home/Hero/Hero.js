@@ -5,8 +5,8 @@ import bgImage from '../../../assets/images/bg.png'
 
 const Hero = () => {
     return (
-        <div className="myHero py-40" style={{ backgroundImage: `url(${bgImage})` }}>
-            <div className="hero  ">
+        <div className="myHero py-20" style={{ backgroundImage: `url(${bgImage})` }}>
+            <div className="hero py-20 ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100">
                         <img src={chair} alt="" />
