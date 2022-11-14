@@ -1,0 +1,12 @@
+.appoientment-doctor{
+    background-image: url('');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.appionentment-image{
+    position: absolute;
+    height: 650px;
+    top: -280px;
+}

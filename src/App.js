@@ -8,7 +8,7 @@ function App() {
     <div className="App w-[1440px] mx-auto">
           <Router></Router>
     </div>
-  );
+  ); 
 }
 
 export default App;
