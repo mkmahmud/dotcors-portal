@@ -21,20 +21,20 @@ const Testimonial = () => {
                 <div className="singel-testimonial mx-10 rounded-xl h-[274px] shadow-xl p-10">
                     <p className='text-[16px]'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
                     <div className="testimonial-author flex py-5">
-                        <img src={people1} className='h-[75px] w-[75px] border border-[#19D3AE] rounded-full border-4' alt="" />
+                        <img src={people2} className='h-[75px] w-[75px] border border-[#19D3AE] rounded-full border-4' alt="" />
                         <div className="profile text-left px-4">
-                            <h2 className='text-[20px] font-bold'>Jhon Kobir</h2>
-                            <p>New York</p>
+                            <h2 className='text-[20px] font-bold'>Jorge</h2>
+                            <p>Los</p>
                         </div>
                     </div>
                 </div>
                 <div className="singel-testimonial mx-10 rounded-xl h-[274px] shadow-xl p-10">
                     <p className='text-[16px]'>It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content</p>
                     <div className="testimonial-author flex py-5">
-                        <img src={people1} className='h-[75px] w-[75px] border border-[#19D3AE] rounded-full border-4' alt="" />
+                        <img src={people3} className='h-[75px] w-[75px] border border-[#19D3AE] rounded-full border-4' alt="" />
                         <div className="profile text-left px-4">
-                            <h2 className='text-[20px] font-bold'>Jhon Kobir</h2>
-                            <p>New York</p>
+                            <h2 className='text-[20px] font-bold'>Mexwell</h2>
+                            <p>Sedny</p>
                         </div>
                     </div>
                 </div>
