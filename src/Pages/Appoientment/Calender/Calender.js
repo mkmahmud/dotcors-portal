@@ -6,15 +6,7 @@ import { format } from 'date-fns';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
 
-const Calender = () => {
-
-    const [selected, setSelected] = useState()
-
-    let footer = <p>Please pick a day.</p>;
-    if (selected) {
-      footer = <p>You picked {format(selected, 'PP')}.</p>;
-    }
-
+const Calender = ({selected, setSelected}) => {
     return (
         <div>
             <div className="hero-content calender flex-col lg:flex-row-reverse px-40 py-20" style={{ backgroundImage: `url(${bg})` }}>
@@ -26,7 +18,6 @@ const Calender = () => {
                         mode="single"
                         selected={selected}
                         onSelect={setSelected}
-                        footer={footer}
                     />
                 </div>
             </div>
