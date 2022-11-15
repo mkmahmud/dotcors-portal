@@ -5,6 +5,7 @@ import {
     Route,
   } from "react-router-dom";
 import Main from '../../Layout/Main';
+import Appoientment from '../../Pages/Appoientment/Appoientment';
 import Home from '../../Pages/Home/Home';
 
 const Router = () => {
@@ -16,6 +17,10 @@ const Router = () => {
             {
                 path:'/',
                 element:<Home></Home>
+            },
+            {
+              path:'/appoientment',
+              element:<Appoientment></Appoientment>
             }
           ]
         },
