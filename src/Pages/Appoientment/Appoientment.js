@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import AvailableDate from './Available/AvailableDate';
+import Bookmodal from './BookModal/Bookmodal';
 import Calender from './Calender/Calender';
 
 const Appoientment = () => {
 
 
-    const [selected, setSelected] = useState()
+    // Set selected Time
+    const [selected, setSelected] = useState();
+
+
 
     return (
         <div>
@@ -16,6 +20,7 @@ const Appoientment = () => {
             <AvailableDate
                 selected={selected}
             ></AvailableDate>
+           
         </div>
     );
 };
